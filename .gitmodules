@@ -7,3 +7,6 @@
 [submodule "libraries/TensorRT"]
 	path = libraries/TensorRT
 	url = https://github.com/NVIDIA/TensorRT.git
+[submodule "libraries/tensorrt/tensorrt_oss"]
+	path = libraries/tensorrt/tensorrt_oss
+	url = https://github.com/NVIDIA/TensorRT.git
