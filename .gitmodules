@@ -1,0 +1,6 @@
+[submodule "drivers/submodules/pylon-ros-camera"]
+	path = drivers/submodules/pylon-ros-camera
+	url = https://github.com/basler/pylon-ros-camera
+[submodule "drivers/submodules/dragandbot_common"]
+	path = drivers/submodules/dragandbot_common
+	url = https://github.com/dragandbot/dragandbot_common.git
