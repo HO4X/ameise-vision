@@ -4,3 +4,9 @@
 [submodule "drivers/submodules/dragandbot_common"]
 	path = drivers/submodules/dragandbot_common
 	url = https://github.com/dragandbot/dragandbot_common.git
+[submodule "libraries/TensorRT"]
+	path = libraries/TensorRT
+	url = https://github.com/NVIDIA/TensorRT.git
+[submodule "libraries/onnx-tensorrt"]
+	path = libraries/onnx-tensorrt
+	url = https://github.com/onnx/onnx-tensorrt
