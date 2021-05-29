@@ -7,3 +7,6 @@
 [submodule "libraries/tensorrt/tensorrt_oss"]
 	path = libraries/tensorrt/tensorrt_oss
 	url = https://github.com/NVIDIA/TensorRT.git
+[submodule "drivers/submodules/ouster_example"]
+	path = drivers/submodules/ouster_example
+	url = https://github.com/ouster-lidar/ouster_example.git
