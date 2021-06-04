@@ -10,3 +10,9 @@
 [submodule "drivers/submodules/ouster_example"]
 	path = drivers/submodules/ouster_example
 	url = https://github.com/ouster-lidar/ouster_example.git
+[submodule "libraries/onnx2trt/--checkout"]
+	path = libraries/onnx2trt/--checkout
+	url = https://github.com/onnx/onnx-tensorrt.git
+[submodule "libraries/onnx2trt/onnx-tensorrt"]
+	path = libraries/onnx2trt/onnx-tensorrt
+	url = https://github.com/onnx/onnx-tensorrt.git
