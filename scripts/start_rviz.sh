@@ -1,0 +1,1 @@
+gnome-terminal --command="bash -c 'source ~/workspace/devel/setup.bash && rviz -d ~/workspace/src/config/rviz/licam.rviz'"

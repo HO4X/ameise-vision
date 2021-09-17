@@ -10,7 +10,7 @@ device_user_id: ""
 #  from the ROS-CameraInfoManager:
 #  http://docs.ros.org/api/camera_info_manager/html/classcamera__info__manager_
 #  1_1CameraInfoManager.html#details
-camera_info_url: "file:///home/marcel/workspace/src/launch/camera/config/calib/ost.yaml"
+camera_info_url: "file:///home/ameise/workspace/src/launch/camera/config/calib/ost.yaml"
 
 #  The encoding of the pixels -- channel meaning, ordering, size
 #  taken from the list of strings in include/sensor_msgs/image_encodings.h
@@ -30,7 +30,7 @@ image_encoding: "rgb8"
 #  The desired publisher frame rate if listening to the topics.
 #  This parameter can only be set once at startup
 #  Calling the GrabImages-Action can result in a higher framerate
-frame_rate: 100.0
+frame_rate: 25.0
 
 #  Mode of camera's shutter.
 #  The supported modes are "rolling", "global" and "global_reset"
@@ -46,7 +46,7 @@ shutter_mode: "global"
 ##########################################################################
 
 #  The exposure time in microseconds to be set after opening the camera.
-exposure: 500
+exposure: 5000
 
 #  The target gain in percent of the maximal value the camera supports
 #  For USB-Cameras, the gain is in dB, for GigE-Cameras it is given in so
@@ -100,7 +100,7 @@ exposure_search_timeout: 5.0
 #  The exposure search can be limited with an upper bound. This is to prevent
 #  very high exposure times and resulting timeouts.
 #  A typical value for this upper bound is ~2000000us.
-auto_exposure_upper_limit: 1000.0
+auto_exposure_upper_limit: 5000.0
 
 #  The MTU size. Only used for GigE cameras.
 #  To prevent lost frames configure the camera has to be configured
